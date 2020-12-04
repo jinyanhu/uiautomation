@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+    <!--企业和非企业选择文本框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-selection" index="">input_company_locator</locator>
+
+    <!--企业和非企业选择下拉框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-item" index="">select_company_locator</locator>
+
+    <!--用户名输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="0">input_username_locator</locator>
+
+    <!--密码输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="1">input_password_locator</locator>
+
+    <!--验证码输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="2">input_verify_code_locator</locator>
+
+    <!--登录按钮-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-btn-primary" index="">button_login_locator</locator>
+
+</map>

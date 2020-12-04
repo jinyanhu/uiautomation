@@ -1,0 +1,16 @@
+[2018-06-07 13:12:44]:  INFO run case：test_login_success(成功登录)
+[2018-06-07 13:13:03]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 13:13:04]:  INFO     Page中执行的函数：select_company
+[2018-06-07 13:13:05]:  INFO     Page中执行的函数所在行：51
+[2018-06-07 13:13:05]:  INFO     Action中执行的函数名：select_by_text；参数：('ID', 'dbCode')  企业  
+[2018-06-07 13:13:16]:  INFO         操作运行结果：None
+[2018-06-07 13:13:28]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 13:13:28]:  INFO     Page中执行的函数：input_username
+[2018-06-07 13:13:28]:  INFO     Page中执行的函数所在行：59
+[2018-06-07 13:13:28]:  INFO     Action中执行的函数名：send_keys；参数：('ID', 'userName')  zhangzhihe  
+[2018-06-07 13:13:28]:  INFO         操作运行结果：None
+[2018-06-07 13:13:28]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 13:13:28]:  INFO     Page中执行的函数：input_password
+[2018-06-07 13:13:28]:  INFO     Page中执行的函数所在行：67
+[2018-06-07 13:13:28]:  INFO     Action中执行的函数名：send_keys；参数：('ID', 'password')  123456  
+[2018-06-07 13:13:28]:  INFO         操作运行结果：None

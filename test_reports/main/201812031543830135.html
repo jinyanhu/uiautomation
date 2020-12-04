@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>main</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link type="text/css" rel="stylesheet" href="http://qa-demo.web.sdp.101.com/assets/pyunit.css" />
+    <script type="text/javascript" src="http://qa-demo.web.sdp.101.com/assets/jquery.min.js"></script>
+    <script type="text/javascript" src="http://qa-demo.web.sdp.101.com/assets/pyunit.js"></script>
+    
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+/*
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+*/
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+
+<div class='heading'>
+<h1>main</h1>
+
+<p class='attribute'><strong>该次测试执行于:</strong> 2018-12-03 17:42:15</p>
+<p class='attribute'><strong>运行时间:</strong> 0:00:09.571000</p>
+<p class='attribute'><strong>状态:</strong> 通过 1</p>
+
+
+<p class='description'></p>
+</div>
+
+
+
+<p id='show_detail_line'>显示：
+<a href='javascript:showCase(0)'>概要信息</a>
+<a href='javascript:showCase(1)'>失败的测试</a>
+<a href='javascript:showCase(2)'>所有测试</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+
+<tr id='header_row'>
+    <td>测试套件集/测试用例</td>
+    <td>统计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>更多</td>
+</tr>
+
+<tr class='passClass'>
+    <td><class 'main.pkg_login.test_login.TestLogin'></td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)" class="detail-link">查看详情</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_success(成功登录)</div></td>
+
+    <td colspan='4' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >通过</a>
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <div class="error-info">
+        &lt;br&gt;pt1.1: 当前执行的Page：pkg_login\page_login.py&lt;br&gt;    Page中执行的函数：select_company&lt;br&gt;    Page中执行的函数所在行：63&lt;br&gt;    Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-selection', '')    &lt;br&gt;        操作运行结果：None&lt;br&gt;&lt;br&gt;当前执行的Page：pkg_login\page_login.py&lt;br&gt;    Page中执行的函数：select_company&lt;br&gt;    Page中执行的函数所在行：64&lt;br&gt;    Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-item', '')  [0]  &lt;br&gt;        操作运行结果：None&lt;br&gt;&lt;br&gt;当前执行的Page：pkg_login\page_login.py&lt;br&gt;    Page中执行的函数：input_username&lt;br&gt;    Page中执行的函数所在行：72&lt;br&gt;    Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '0')  zhangzhihe  0  &lt;br&gt;        操作运行结果：None&lt;br&gt;&lt;br&gt;当前执行的Page：pkg_login\page_login.py&lt;br&gt;    Page中执行的函数：input_password&lt;br&gt;    Page中执行的函数所在行：80&lt;br&gt;    Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '1')  abc541772  1  &lt;br&gt;        操作运行结果：None&lt;br&gt;&lt;br&gt;当前执行的Page：pkg_login\page_login.py&lt;br&gt;    Page中执行的函数：input_verify_code&lt;br&gt;    Page中执行的函数所在行：94&lt;br&gt;    Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '2')  zhihe666  2  &lt;br&gt;        操作运行结果：None&lt;br&gt;&lt;br&gt;当前执行的Page：pkg_login\page_login.py&lt;br&gt;    Page中执行的函数：click_button_login&lt;br&gt;    Page中执行的函数所在行：101&lt;br&gt;    Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-btn-primary', '')  &lt;br&gt;        操作运行结果：None&lt;br&gt;&lt;br&gt;&lt;br&gt;
+        </div>
+    </div>
+    <!--css div popup end-->
+    </td>
+
+    <td colspan='1' align='center'><div class='spendTime'>1</div></td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+
+
+</body>
+</html>

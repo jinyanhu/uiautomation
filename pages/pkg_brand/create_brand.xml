@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+    <!--品牌编码-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-input-default" index="0">input_brandno_locator</locator>>
+
+    <!--品牌名称-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-input-default" index="1">input_brandname_locator</locator>>
+
+    <!--前缀-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-input-default" index="3">input_prefix_locator</locator>>
+
+    <!--供应商等级选择框-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-select-selection" index="0">input_vendor_locator</locator>>
+
+    <!--选择第一个等级-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-select-item" index="0">select_level_locator</locator>>
+
+    <!--销售客户-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-select-selection" index="1">input_customer_locator</locator>>
+
+    <!--选择第一个销售客户-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-select-item" index="1">select_customer_locator</locator>>
+
+    <!--收货地址-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-input-default" index="8">input_address_locator</locator>>
+
+    <!--收货人-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-input-default" index="10">input_recipient_locator</locator>>
+
+    <!--联系电话-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-input-default" index="11">input_phone_locator</locator>>
+
+    <!--倍率-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-input-default" index="12">input_ratio_locator</locator>>
+
+    <!--启用按钮-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-radio-input" index="">button_enable_locator</locator>>
+
+    <!--保存按钮-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-btn-primary" index="">button_save_locator</locator>>
+
+</map>

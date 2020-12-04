@@ -1,0 +1,31 @@
+[2018-12-24 21:03:34]:  INFO run case：test_login_success(成功登录)
+[2018-12-24 21:03:38]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-24 21:03:38]:  INFO     Page中执行的函数：select_company
+[2018-12-24 21:03:38]:  INFO     Page中执行的函数所在行：65
+[2018-12-24 21:03:38]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-selection', '')    
+[2018-12-24 21:03:39]:  INFO         操作运行结果：None
+[2018-12-24 21:03:39]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-24 21:03:39]:  INFO     Page中执行的函数：select_company
+[2018-12-24 21:03:39]:  INFO     Page中执行的函数所在行：66
+[2018-12-24 21:03:39]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-item', '')  [0]  
+[2018-12-24 21:03:39]:  INFO         操作运行结果：None
+[2018-12-24 21:03:39]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-24 21:03:39]:  INFO     Page中执行的函数：input_username
+[2018-12-24 21:03:39]:  INFO     Page中执行的函数所在行：74
+[2018-12-24 21:03:39]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '0')  zhangzhihe  0  
+[2018-12-24 21:03:40]:  INFO         操作运行结果：None
+[2018-12-24 21:03:40]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-24 21:03:40]:  INFO     Page中执行的函数：input_password
+[2018-12-24 21:03:40]:  INFO     Page中执行的函数所在行：82
+[2018-12-24 21:03:40]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '1')  abc541772  1  
+[2018-12-24 21:03:40]:  INFO         操作运行结果：None
+[2018-12-24 21:03:40]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-24 21:03:40]:  INFO     Page中执行的函数：input_verify_code
+[2018-12-24 21:03:40]:  INFO     Page中执行的函数所在行：96
+[2018-12-24 21:03:40]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '2')  zhihe666  2  
+[2018-12-24 21:03:40]:  INFO         操作运行结果：None
+[2018-12-24 21:03:40]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-24 21:03:40]:  INFO     Page中执行的函数：click_button_login
+[2018-12-24 21:03:40]:  INFO     Page中执行的函数所在行：103
+[2018-12-24 21:03:40]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-btn-primary', '')  
+[2018-12-24 21:03:40]:  INFO         操作运行结果：None

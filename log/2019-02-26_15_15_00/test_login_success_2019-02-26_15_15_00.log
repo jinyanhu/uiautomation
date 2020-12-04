@@ -1,0 +1,101 @@
+[2019-02-26 15:15:00]:  INFO run case：test_login_success(成功登录)
+[2019-02-26 15:15:06]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2019-02-26 15:15:06]:  INFO     Page中执行的函数：select_company
+[2019-02-26 15:15:06]:  INFO     Page中执行的函数所在行：66
+[2019-02-26 15:15:06]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-selection', '')    
+[2019-02-26 15:15:06]:  INFO         操作运行结果：None
+[2019-02-26 15:15:06]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2019-02-26 15:15:06]:  INFO     Page中执行的函数：select_company
+[2019-02-26 15:15:06]:  INFO     Page中执行的函数所在行：67
+[2019-02-26 15:15:06]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-item', '')  [0]  
+[2019-02-26 15:15:06]:  INFO         操作运行结果：None
+[2019-02-26 15:15:07]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2019-02-26 15:15:07]:  INFO     Page中执行的函数：input_username
+[2019-02-26 15:15:07]:  INFO     Page中执行的函数所在行：75
+[2019-02-26 15:15:07]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '0')  金严虎测试  0  
+[2019-02-26 15:15:07]:  INFO         操作运行结果：None
+[2019-02-26 15:15:08]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2019-02-26 15:15:08]:  INFO     Page中执行的函数：input_password
+[2019-02-26 15:15:08]:  INFO     Page中执行的函数所在行：83
+[2019-02-26 15:15:08]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '1')  a1234567  1  
+[2019-02-26 15:15:08]:  INFO         操作运行结果：None
+[2019-02-26 15:15:09]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2019-02-26 15:15:09]:  INFO     Page中执行的函数：input_verify_code
+[2019-02-26 15:15:09]:  INFO     Page中执行的函数所在行：97
+[2019-02-26 15:15:09]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '2')  zhihe666  2  
+[2019-02-26 15:15:09]:  INFO         操作运行结果：None
+[2019-02-26 15:15:10]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2019-02-26 15:15:10]:  INFO     Page中执行的函数：click_button_login
+[2019-02-26 15:15:10]:  INFO     Page中执行的函数所在行：104
+[2019-02-26 15:15:10]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-btn-primary', '')  
+[2019-02-26 15:15:10]:  INFO         操作运行结果：None
+[2019-02-26 15:15:18]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:18]:  INFO     Page中执行的函数：input_vendor_code
+[2019-02-26 15:15:18]:  INFO     Page中执行的函数所在行：105
+[2019-02-26 15:15:18]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '0')  00126  0  
+[2019-02-26 15:15:18]:  INFO         操作运行结果：None
+[2019-02-26 15:15:19]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:19]:  INFO     Page中执行的函数：input_vendor_short_code
+[2019-02-26 15:15:19]:  INFO     Page中执行的函数所在行：113
+[2019-02-26 15:15:19]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '1')  凡容  1  
+[2019-02-26 15:15:19]:  INFO         操作运行结果：None
+[2019-02-26 15:15:20]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:20]:  INFO     Page中执行的函数：select_state
+[2019-02-26 15:15:20]:  INFO     Page中执行的函数所在行：121
+[2019-02-26 15:15:20]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-selection', '')    
+[2019-02-26 15:15:20]:  INFO         操作运行结果：None
+[2019-02-26 15:15:20]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:20]:  INFO     Page中执行的函数：select_state
+[2019-02-26 15:15:20]:  INFO     Page中执行的函数所在行：122
+[2019-02-26 15:15:20]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-item', '')  [1]  
+[2019-02-26 15:15:20]:  INFO         操作运行结果：None
+[2019-02-26 15:15:21]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:21]:  INFO     Page中执行的函数：cliet_query
+[2019-02-26 15:15:21]:  INFO     Page中执行的函数所在行：129
+[2019-02-26 15:15:21]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-btn-primary', '3')  3  
+[2019-02-26 15:15:22]:  INFO         操作运行结果：None
+[2019-02-26 15:15:32]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:32]:  INFO     Page中执行的函数：vendor_code
+[2019-02-26 15:15:32]:  INFO     Page中执行的函数所在行：136
+[2019-02-26 15:15:32]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '0')  12372  0  
+[2019-02-26 15:15:32]:  INFO         操作运行结果：None
+[2019-02-26 15:15:34]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:34]:  INFO     Page中执行的函数：name
+[2019-02-26 15:15:34]:  INFO     Page中执行的函数所在行：143
+[2019-02-26 15:15:34]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '1')  测试供应商12372  1  
+[2019-02-26 15:15:34]:  INFO         操作运行结果：None
+[2019-02-26 15:15:35]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:35]:  INFO     Page中执行的函数：short_name
+[2019-02-26 15:15:35]:  INFO     Page中执行的函数所在行：150
+[2019-02-26 15:15:35]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '2')  测试供应商12372  2  
+[2019-02-26 15:15:35]:  INFO         操作运行结果：None
+[2019-02-26 15:15:36]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:36]:  INFO     Page中执行的函数：select_sort
+[2019-02-26 15:15:36]:  INFO     Page中执行的函数所在行：157
+[2019-02-26 15:15:36]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-selection', '')    
+[2019-02-26 15:15:36]:  INFO         操作运行结果：None
+[2019-02-26 15:15:36]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:36]:  INFO     Page中执行的函数：select_sort
+[2019-02-26 15:15:36]:  INFO     Page中执行的函数所在行：158
+[2019-02-26 15:15:36]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-single:nth-child(1) .ivu-select-item', '')  [1]  
+[2019-02-26 15:15:36]:  INFO         操作运行结果：None
+[2019-02-26 15:15:37]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:37]:  INFO     Page中执行的函数：linkman
+[2019-02-26 15:15:37]:  INFO     Page中执行的函数所在行：166
+[2019-02-26 15:15:37]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '7')  测试  7  
+[2019-02-26 15:15:38]:  INFO         操作运行结果：None
+[2019-02-26 15:15:39]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:39]:  INFO     Page中执行的函数：telephone
+[2019-02-26 15:15:39]:  INFO     Page中执行的函数所在行：174
+[2019-02-26 15:15:39]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '8')  17610225668  8  
+[2019-02-26 15:15:39]:  INFO         操作运行结果：None
+[2019-02-26 15:15:44]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:44]:  INFO     Page中执行的函数：add_address
+[2019-02-26 15:15:44]:  INFO     Page中执行的函数所在行：182
+[2019-02-26 15:15:44]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '10')  测试地址  ['10']  
+[2019-02-26 15:15:44]:  INFO         操作运行结果：None
+[2019-02-26 15:15:49]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2019-02-26 15:15:49]:  INFO     Page中执行的函数：submit_query
+[2019-02-26 15:15:49]:  INFO     Page中执行的函数所在行：189
+[2019-02-26 15:15:49]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-btn-primary', '2')  2  
+[2019-02-26 15:15:49]:  INFO         操作运行结果：None

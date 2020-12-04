@@ -1,0 +1,52 @@
+[2018-12-21 19:48:42]:  INFO run case：test_login_success(成功登录)
+[2018-12-21 19:48:46]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-21 19:48:46]:  INFO     Page中执行的函数：select_company
+[2018-12-21 19:48:46]:  INFO     Page中执行的函数所在行：65
+[2018-12-21 19:48:46]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-selection', '')    
+[2018-12-21 19:48:47]:  INFO         操作运行结果：None
+[2018-12-21 19:48:47]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数：select_company
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数所在行：66
+[2018-12-21 19:48:47]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-item', '')  [0]  
+[2018-12-21 19:48:47]:  INFO         操作运行结果：None
+[2018-12-21 19:48:47]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数：input_username
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数所在行：74
+[2018-12-21 19:48:47]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '0')  zhangzhihe  0  
+[2018-12-21 19:48:47]:  INFO         操作运行结果：None
+[2018-12-21 19:48:47]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数：input_password
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数所在行：82
+[2018-12-21 19:48:47]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '1')  abc541772  1  
+[2018-12-21 19:48:47]:  INFO         操作运行结果：None
+[2018-12-21 19:48:47]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数：input_verify_code
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数所在行：96
+[2018-12-21 19:48:47]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '2')  zhihe666  2  
+[2018-12-21 19:48:47]:  INFO         操作运行结果：None
+[2018-12-21 19:48:47]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数：click_button_login
+[2018-12-21 19:48:47]:  INFO     Page中执行的函数所在行：103
+[2018-12-21 19:48:47]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-btn-primary', '')  
+[2018-12-21 19:48:47]:  INFO         操作运行结果：None
+[2018-12-21 19:48:51]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2018-12-21 19:48:51]:  INFO     Page中执行的函数：input_vendor_code
+[2018-12-21 19:48:51]:  INFO     Page中执行的函数所在行：70
+[2018-12-21 19:48:51]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '')  00126  
+[2018-12-21 19:48:51]:  INFO         操作运行结果：None
+[2018-12-21 19:48:51]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2018-12-21 19:48:51]:  INFO     Page中执行的函数：input_vendor_short_code
+[2018-12-21 19:48:51]:  INFO     Page中执行的函数所在行：78
+[2018-12-21 19:48:51]:  INFO     Action中执行的函数名：send_keys；参数：('CSS_SELECTOR', '.ivu-input-default', '0')  凡容  
+[2018-12-21 19:48:52]:  INFO         操作运行结果：None
+[2018-12-21 19:48:52]:  INFO 当前执行的Page：page_vendor\page_vendor.py
+[2018-12-21 19:48:52]:  INFO     Page中执行的函数：select_state
+[2018-12-21 19:48:52]:  INFO     Page中执行的函数所在行：86
+[2018-12-21 19:48:52]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-placeholder', '')  .ivu-select-placeholder  
+[2018-12-21 19:48:52]:  INFO Traceback (most recent call last):
+  File "E:\Python-projects\uiautomation\base\browser_action.py", line 193, in click
+    elements[int(i)].click()
+ValueError: invalid literal for int() with base 10: '.'
+
+[2018-12-21 19:48:52]:  INFO invalid literal for int() with base 10: '.'
+[2018-12-21 19:48:52]:  INFO         操作运行结果：失败！

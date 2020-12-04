@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+
+    <!--供应商编码输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="0">input_vendor_code_locator</locator>
+
+    <!--供应商简称输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="1">input_short_code_locator</locator>
+
+    <!--状态选择文本框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-selection" index="">input_state_locator</locator>
+
+    <!--状态选择下拉框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-item" index="">select_state_locator</locator>
+
+    <!--点击查询按钮-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-btn-primary" index="3">input_query_locator</locator>
+
+    <!--供应商编码输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="0">input_code_locator</locator>
+
+    <!--供应商名称输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="1">input_name_locator</locator>
+
+    <!--供应商简称输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="2">input_short_name_locator</locator>
+
+    <!--所属分类文本框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-selection" index="">input_sort_locator</locator>
+
+    <!--选择所属分类-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-single:nth-child(1) .ivu-select-item" index="">select_sort_locator</locator>
+
+    <!--联系人1输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="7">input_linkman_locator</locator>
+
+    <!--手机1输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="8">input_telephone_locator</locator>
+
+    <!--地址1输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="10">input_address_locator</locator>
+
+    <!--提交按钮-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-btn-primary" index="2">input_submit_locator</locator>
+
+
+
+</map>

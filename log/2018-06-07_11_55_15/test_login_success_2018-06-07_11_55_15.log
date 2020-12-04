@@ -1,0 +1,6 @@
+[2018-06-07 11:55:15]:  INFO run case：test_login_success(成功登录)
+[2018-06-07 11:55:34]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 11:55:39]:  INFO     Page中执行的函数：select_company
+[2018-06-07 11:55:42]:  INFO     Page中执行的函数所在行：51
+[2018-06-07 11:55:48]:  INFO     Action中执行的函数名：select_by_text；参数：('ID', 'dbCode')  企业  
+[2018-06-07 11:55:58]:  INFO         操作运行结果：失败！

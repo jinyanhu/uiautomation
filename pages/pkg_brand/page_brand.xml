@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+    <!--状态选择文本框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-selection" index="">input_state_locator</locator>
+
+    <!--选择启用状态-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-select-item" index="1">select_state_locator</locator>
+
+    <!--品牌编码输入框-->
+    <locator type ="CSS_SELECTOR" timeOut="3" value= ".ivu-input-default" index="">input_brand_no_locator</locator>
+
+    <!--查询按钮-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-btn-primary" index="2">button_query_locator</locator>>
+
+    <!--第一行数据-->
+    <locator type="CSS_SELECTOR" timeOut="3" value=".ivu-table-body table" index="">table_first_locator</locator>>
+
+
+
+</map>

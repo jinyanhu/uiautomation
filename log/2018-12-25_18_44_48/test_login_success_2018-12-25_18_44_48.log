@@ -1,0 +1,6 @@
+[2018-12-25 18:44:48]:  INFO run case：test_login_success(成功登录)
+[2018-12-25 18:44:52]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-12-25 18:44:52]:  INFO     Page中执行的函数：select_company
+[2018-12-25 18:44:52]:  INFO     Page中执行的函数所在行：65
+[2018-12-25 18:44:52]:  INFO     Action中执行的函数名：click；参数：('CSS_SELECTOR', '.ivu-select-selection', '')    
+[2018-12-25 18:45:22]:  INFO         操作运行结果：失败！

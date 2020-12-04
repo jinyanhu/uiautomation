@@ -1,0 +1,15 @@
+{
+    "case_main": {
+        "title": "main",
+        "report_file": "main",
+        "cases": {
+            "main": [
+                "pkg_login.test_login",
+                "pkg_brand.test_create_brand",
+                "pkg_brand.test_brand"
+            ]
+        },
+        "receivers": [],
+        "group":["72584842502405be7d393ad130b8e86bb9a58e50ee1cd079934c844ba71f6702"]
+    }
+}

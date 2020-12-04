@@ -1,0 +1,43 @@
+[2018-06-07 13:24:38]:  INFO run case：test_login_success(成功登录)
+[2018-06-07 13:24:45]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数：select_company
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数所在行：54
+[2018-06-07 13:24:45]:  INFO     Action中执行的函数名：select_by_text；参数：('ID', 'dbCode')  企业  
+[2018-06-07 13:24:45]:  INFO         操作运行结果：None
+[2018-06-07 13:24:45]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数：input_username
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数所在行：62
+[2018-06-07 13:24:45]:  INFO     Action中执行的函数名：send_keys；参数：('ID', 'userName')  zhangzhihe  
+[2018-06-07 13:24:45]:  INFO         操作运行结果：None
+[2018-06-07 13:24:45]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数：input_password
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数所在行：70
+[2018-06-07 13:24:45]:  INFO     Action中执行的函数名：send_keys；参数：('ID', 'password')  123456  
+[2018-06-07 13:24:45]:  INFO         操作运行结果：None
+[2018-06-07 13:24:45]:  INFO 当前执行的Page：pkg_login\page_login.py
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数：click_button_login
+[2018-06-07 13:24:45]:  INFO     Page中执行的函数所在行：77
+[2018-06-07 13:24:45]:  INFO     Action中执行的函数名：click；参数：('ID', 'but_login')  
+[2018-06-07 13:24:47]:  INFO         操作运行结果：None
+[2018-06-07 13:24:50]:  INFO Traceback (most recent call last):
+  File "F:\project\uiautomation\base\browser_action.py", line 60, in is_element_present
+    get_element(self.driver, locator)
+  File "F:\project\uiautomation\base\element.py", line 19, in get_element
+    return driver.find_element_by_id(value)
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 351, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python34\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"userName"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+[2018-06-07 13:24:50]:  INFO Message: no such element: Unable to locate element: {"method":"id","selector":"userName"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64)
+
